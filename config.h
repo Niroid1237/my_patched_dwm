@@ -63,7 +63,7 @@ static const char *dmenucmd[] = { "rofi", "-show", "drun", NULL };
 static const char *termcmd[]  = { "kitty", NULL };
 static const char *files[] = { "thunar", NULL };
 static const char *telegram[] = { "Telegram", NULL };
-static const char *screenshot[] = { "flameshot", "gui", NULL };
+static const char *screenshot[] = { "/home/negrilazer/scripts/screenshot.sh", NULL };
 static const Key keys[] = {
 	/* modifier                     key        function        argument */
 	{ MODKEY,                       XK_d,      spawn,          {.v = dmenucmd } },
